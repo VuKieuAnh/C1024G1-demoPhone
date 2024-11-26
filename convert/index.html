@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    Amount <br>
+    <input type="number" placeholder="nhap so tien" id="amount"> <br>
+    From
+    <select id="from">
+        <option value="1">VND</option>
+        <option value="23000">USD</option>
+        <option value="27000">Euro</option>
+    </select>
+    To
+    <select id="to">
+        <option value="1">VND</option>
+        <option value="23000">USD</option>
+        <option value="27000">Euro</option>
+    </select>
+
+    <button type="button" onclick="getAmount()">Convert </button>
+    <p id="result">ket qua</p>
+
+
+</form>
+<script src="demo.js"></script>
+</body>
+</html>
