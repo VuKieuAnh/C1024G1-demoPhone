@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Product management application using functions</title>
+    <style>
+        table {
+            width: 50%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        button {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+<h1 style="text-align: center;">Product Management</h1>
+<div style="text-align: center;">
+    <input type="text" id="newProduct" placeholder="Enter new product"/>
+    <button onclick="addNewProduct()">Add Product</button>
+</div>
+<div>
+    <span id="count"></span> san pham, tong tien la
+    <span id="sum"></span>
+</div>
+<table id="productTable">
+    <thead>
+    <tr>
+        <th>#</th>
+        <th>Product Name</th>
+        <th>Number</th>
+        <th>Price</th>
+        <th>Amount</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Products will be dynamically populated here -->
+    </tbody>
+</table>
+<script src="product.js"></script>
+<script src="demo.js">
+
+</script>
+</body>
+</html>
